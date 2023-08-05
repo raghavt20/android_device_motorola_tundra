@@ -339,6 +339,18 @@ vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 vendor/firmware/CAMERA_ICP.elf
 vendor/firmware/mot_dw9781c.prog
 
+# Camera Motorola
+product/etc/permissions/com.motorola.camera3.tundra.xml:vendor/etc/permissions/com.motorola.camera3.tundra.xml
+product/app/MotCamera3AI/MotCamera3AI.apk;PRESIGNED
+product/etc/init/init.motcamera3.lens.rc
+product/etc/permissions/com.motorola.camera3.xml
+product/etc/permissions/com.motorola.camera3.content.ai.xml
+product/etc/permissions/com.motorola.camera3.lens.xml
+product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml
+product/etc/permissions/privapp-permissions-com.motorola.camera3.xml
+product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml
+product/priv-app/MotCamera4/MotCamera4.apk;OVERRIDES=Aperture,Camera2;PRESIGNED
+
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
