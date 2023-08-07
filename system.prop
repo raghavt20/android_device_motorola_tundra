@@ -54,8 +54,6 @@ media.stagefright.enable-player=true
 media.stagefright.enable-qcp=true
 media.stagefright.enable-scan=true
 persist.mm.enable.prefetch=true
-ro.media.recorder-max-base-layer-fps=60
-vendor.mm.enable.qcom_parser=16777215
 
 # Netmgrd
 persist.vendor.data.mode=concurrent
@@ -72,6 +70,3 @@ ro.telephony.default_network=33,33
 
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
-
-# WFD
-persist.debug.wfd.enable=1
